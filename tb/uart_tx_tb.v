@@ -8,7 +8,7 @@ reg [7:0] tx_data;
 wire tx;
 wire tx_busy;
 
-uart_tx uut (
+uart_top uut (
     .clk(clk),
     .rst(rst),
     .tx_start(tx_start),
